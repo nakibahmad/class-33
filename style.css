@@ -1,0 +1,123 @@
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+} 
+body,span,p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.own-bg{
+    background:#e0e0e0 ;
+}
+
+/* Main css style */
+
+ul.own-menu{}
+ul.own-menu li{}
+ul.own-menu li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+/* button */
+body .own-button {
+    padding: 10px 26px;
+    border: none;
+}
+body .own-button:hover{
+    color: blue;
+}
+
+.slider-section{
+    background: #f6f9fc !important;
+}
+
+
+.slider-coente{}
+.slider-coente h1{
+    font-size: 51px;
+}
+.slider-coente p{
+    color: #878bb3;
+}
+
+
+.slider-image{
+    height: 800px;
+    width: 500px;
+    margin-top: -180px;
+    margin-left: 250px;
+    overflow: hidden;
+    
+}
+.slider-image img{
+    border-radius: 50%;
+    height: 900px;
+    width: 900px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.own-menu li{
+    position: relative;
+}
+ul.own-menu li ul {
+    position: absolute;
+    top: 206%;
+    left: 0;
+    width: 208px;
+    background: #fafafa;
+    border-radius: 4px;
+    padding-left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+ul.own-menu li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+ul.own-menu li ul li{
+    list-style: none;
+    padding: 20px;
+}
+ul.own-menu li ul li a {
+    background: #0d6efd;
+    color: #f6f9fc;
+    display: block;
+    padding: 9px 10px;
+    border-radius: 4px;
+}
+
+ul.own-menu li span{
+    width: 0px;
+    height: 4px;
+    background:#0d6efd ;
+    position: absolute;
+    top: 57px;
+    left: 0;
+
+    transition: .4s;
+}
+ul.own-menu li:hover span{
+    width: 40px;
+}
